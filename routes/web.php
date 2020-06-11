@@ -13,9 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name('resume');
+
+
+
+Route::get("hobby", function(){
+    return view('personal.hobby');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/helloworld', 'PublicController@helloWorld');
 
 Route::get("/aboutus", function (){
    return "This page is about us";
