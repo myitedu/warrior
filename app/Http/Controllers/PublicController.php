@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Airport;
 use Illuminate\Http\Request;
 
 class PublicController extends Controller
@@ -21,5 +22,17 @@ class PublicController extends Controller
         }
 
         return view("professional.resume",compact('parms'));
+    }
+
+    public function airports(Request $request){
+        $input = $request->all();
+        $country = $input['country']??'Uzbekistan';
+        $airports = Airport::where('country','like','%'.$country.'%')->get();
+        $parms = [
+            'country' => $country,
+            'input' => $input,
+            'airports' => $airports
+        ];
+        return view("airports",compact('parms'));
     }
 }
