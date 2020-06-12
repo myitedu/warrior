@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome_sunnat.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/testing/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,18 +125,31 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -160,13 +162,22 @@
       <option name="presentableId" value="Default" />
       <updated>1591311711858</updated>
       <workItem from="1591311717421" duration="499000" />
+      <workItem from="1591316225937" duration="708000" />
+      <workItem from="1591446332825" duration="284000" />
+      <workItem from="1591914596060" duration="167000" />
+      <workItem from="1591922213167" duration="192000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="160" y="356" key="NewPhpFileDialog" timestamp="1591446371605">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="160" y="355" key="NewPhpFileDialog/0.23.1440.804@0.23.1440.804" timestamp="1591316475713" />
+    <state x="160" y="356" key="NewPhpFileDialog/0.23.1440.806@0.23.1440.806" timestamp="1591446371605" />
     <state x="145" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1591311717544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
