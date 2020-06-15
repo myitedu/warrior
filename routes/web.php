@@ -13,6 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::match(['post','get'],"airports","PublicController@airports")->name('airports');
+Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name('resume');
+
+
+
+Route::get("hobby", function(){
+    return view('personal.hobby');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
