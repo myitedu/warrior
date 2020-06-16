@@ -27,6 +27,4 @@ Route::get('/', function () {
 });
 Route::get('/helloworld', 'PublicController@helloWorld');
 
-Route::get("/aboutus", function (){
-   return "This page is about us";
-});
+Route::get("/resume", "PublicController@resume");

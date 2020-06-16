@@ -4,13 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Airport;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
 
 class PublicController extends Controller
 {
     public function helloWorld(){
         return view("hello_world");
     }
-    public function resume(Request $request, $jobtype='programmer'){
+    public function resumetest(Request $request, $jobtype='programmer'){
         $input = $request->all();
         $parms = [
             'jobtype' => $jobtype,
@@ -34,5 +36,9 @@ class PublicController extends Controller
             'airports' => $airports
         ];
         return view("airports",compact('parms'));
+    }
+
+    public function resume(Request $request){
+        return view('professional.resume');
     }
 }
