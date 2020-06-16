@@ -25,13 +25,10 @@ Route::get("hobby", function(){
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
+
 Route::get('/bobby', 'PublicController@welcomeBobby');
 
-=======
-Route::get('/helloworld', 'PublicController@helloWorld');
->>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
 
-Route::get("/aboutus", function (){
-   return "This page is about us";
-});
+Route::get('/helloworld', 'PublicController@helloWorld');
+
+Route::get("/resume", "PublicController@resume");

@@ -1,30 +1,32 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Resume</title>
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-</head>
-<body>
-<h3>My Resume</h3>
-<div class="container-fluid">
+@extends('master')
 
-    <pre>
-        {{var_dump($parms)}}
-    </pre>
+@section('title', 'My Resume')
+
+@section('sidebar')
+    @parent
+
+    <p>This is appended to the master sidebar.</p>
+@endsection
+
+@section('content')
+    <h3>Welcome to my Laravel Application!</h3>
+    @include('includes.carousel')
+    <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    </div>
 
 
-    <form action="/resume" method="post" class="form-group">
-        <p>
-            <label>First Name: </label>
-            <input class="form-control" name="first_name" type="text" placeholder="Your First Name">
-            {{csrf_field()}}
-            <button class="btn btn-info" type="submit">GO</button>
-        </p>
-    </form>
-</div>
-</body>
-</html>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Login Form
+    </button>
+
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Weather Forecast
+    </button>
+
+    @include('includes.modal',['modal_content'=>'Please login','page'=>'loginform','hide_footer'=>'yes'])
+
+@endsection
