@@ -13,11 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::match(['post','get'],"airports","PublicController@airports")->name('airports');
+Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name('resume');
+
+
+
+Route::get("hobby", function(){
+    return view('personal.hobby');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Route::get('/bobby', 'PublicController@welcomeBobby');
 
+=======
+Route::get('/helloworld', 'PublicController@helloWorld');
+>>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
 
 Route::get("/aboutus", function (){
    return "This page is about us";

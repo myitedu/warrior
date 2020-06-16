@@ -1,0 +1,22 @@
+body{
+    background-color: #010b38;
+}
+.container-fluid{
+    background-color: whitesmoke;
+    padding:10px;
+    margin: 50px auto;
+}
+
+th{
+    background-color: darkred;
+    color: #e7e70a;
+}
+tr:nth-child(odd){
+    background-color: #efeaea;
+}
+
+tr:hover{
+    background-color: #e55858;
+    color:yellow;
+    cursor: pointer;
+}
