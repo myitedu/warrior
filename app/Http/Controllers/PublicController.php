@@ -11,7 +11,6 @@ class PublicController extends Controller
 
     }
 
-
     public function helloWorld(){
         return view("hello_world");
     }
