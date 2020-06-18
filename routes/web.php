@@ -28,3 +28,4 @@ Route::get('/', function () {
 Route::get('/helloworld', 'PublicController@helloWorld');
 
 Route::get("/resume", "PublicController@resume");
+Route::get("/contactus", "PublicController@contactus");

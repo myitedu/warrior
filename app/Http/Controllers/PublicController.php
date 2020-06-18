@@ -25,7 +25,6 @@ class PublicController extends Controller
 
         return view("professional.resume",compact('parms'));
     }
-
     public function airports(Request $request){
         $input = $request->all();
         $country = $input['country']??'Uzbekistan';
@@ -37,8 +36,13 @@ class PublicController extends Controller
         ];
         return view("airports",compact('parms'));
     }
-
     public function resume(Request $request){
         return view('professional.resume');
+    }
+    public function contactus(){
+        $parms = [
+            'name'=>'Jon'
+        ];
+        return view('contactus', compact('parms'));
     }
 }
