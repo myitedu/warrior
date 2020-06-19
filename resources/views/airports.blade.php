@@ -11,27 +11,29 @@
 </head>
 <body>
 <div class="container-fluid">
-    <h3>World Airports</h3>
+    <h3>Email</h3>
     <form class="form-group">
         <p>
             <label>Search: </label>
-            <input value="{{$parms['input']['country']??'Uzbekistan'}}" class="form-control" name="country" type="text" placeholder="Your Country">
+            <input value="" class="form-control" name="email" type="text" placeholder="Your ID">
             <button type="submit">Search</button>
         </p>
     </form>
     <table class="table table-bordered">
         <tr>
             <th>ID</th>
-            <th>City</th>
-            <th>Country</th>
-            <th>Code</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>DOB</th>
+            <th>Email</th>
         </tr>
-        @foreach($parms['airports'] as $airport)
+        @foreach($parms['birthdays'] as $birthday)
         <tr>
-            <td>{{$airport->id}}</td>
-            <td>{{$airport->city}}</td>
-            <td>{{$airport->country}}</td>
-            <td>{{$airport->code}}</td>
+            <td>{{$birthday->id}}</td>
+            <td>{{$birthday->first_name}}</td>
+            <td>{{$birthday->last_name}}</td>
+            <td>{{$birthday->dob}}</td>
+            <td>{{$birthday->email}}</td>
         </tr>
         @endforeach
     </table>

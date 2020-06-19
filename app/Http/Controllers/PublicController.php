@@ -3,40 +3,58 @@
 namespace App\Http\Controllers;
 
 use App\Airport;
+use App\Birthday;
+use http\Encoding\Stream;
 use Illuminate\Http\Request;
+use Psy\Util\Str;
+
 class PublicController extends Controller
 {
-    public function welcomeBobby(){
+    public function welcomeBobby()
+    {
         return view('welcome_bobby');
 
     }
 
-    public function helloWorld(){
+    public function helloWorld()
+    {
         return view("hello_world");
     }
-    public function resume(Request $request, $jobtype='programmer'){
-        $input = $request->all();
-        $parms = [
-            'jobtype' => $jobtype,
-            'input' => $input
-        ];
 
-        if ($input['first_name'] == 'Jon'){
-            return "HOWDY JON!";
+
+    public function airports(Request $request)
+    {
+        $input = $request->all();
+        $id = $input['id'] ?? 2;
+        $email = $input['email']?? "jontoshmatov@yahoo.com";
+        if(!$email){
+            return "Email is empty";
         }
-
-        return view("professional.resume",compact('parms'));
-    }
-
-    public function airports(Request $request){
-        $input = $request->all();
-        $country = $input['country']??'Uzbekistan';
-        $airports = Airport::where('country','like','%'.$country.'%')->get();
+        $birthday = Birthday::where('email', 'like', '%' . $email . '%')->get();
         $parms = [
-            'country' => $country,
+            'id' => $id,
             'input' => $input,
-            'airports' => $airports
+            'birthdays' => $birthday
         ];
-        return view("airports",compact('parms'));
+        return view("airports", compact('parms'));
     }
+
+    public function resume(Request $request)
+    {
+        return view('professional.resume');
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+

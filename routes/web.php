@@ -13,8 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::match(['post','get'],"airports","PublicController@airports")->name('airports');
-Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name('resume');
+Route::match(['post','get'],"airports","PublicController@airports")->name('birthdays');
 
 
 
@@ -32,3 +31,4 @@ Route::get('/bobby', 'PublicController@welcomeBobby');
 Route::get('/helloworld', 'PublicController@helloWorld');
 
 Route::get("/resume", "PublicController@resume");
+Route::get("/practice","PublicController@practice");
