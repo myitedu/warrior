@@ -12,10 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::match(['post','get'],"airports","PublicController@airports")->name('airports');
-Route::match(['post','get'],"airports/{country?}","PublicController@airports")->name('resume');
-Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name('airports');
+Route::match(['post','get'],"airports/{country}","PublicController@airports")->name('airports');
 
 
 
@@ -28,6 +25,5 @@ Route::get('/', function () {
 });
 Route::get('/helloworld', 'PublicController@helloWorld');
 
-Route::get("/aboutus", function (){
-   return "This page is about us";
-});
+Route::get("/resume", "PublicController@resume");
+Route::get("/practice", "PublicController@practice");
