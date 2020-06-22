@@ -17,15 +17,6 @@ Route::match(['post','get'],"airports","PublicController@airports")->name('airpo
 Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name('resume');
 
 
-
-Route::get("hobby", function(){
-    return view('personal.hobby');
-});
-
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/helloworld', 'PublicController@helloWorld');
-
-Route::get("/resume", "PublicController@resume");
-Route::get("/contactus", "PublicController@contactus");
+//Birthday reminder routes
+Route::get("/birthday/reminder", "BirthdayController@registerForm");
+Route::post("/birthday/reminder/register", "BirthdayController@register");
