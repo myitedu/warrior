@@ -20,14 +20,9 @@ class PublicController extends Controller
     {
         return view("hello_world");
     }
-<<<<<<< HEAD
 
-
-    public function airports(Request $request)
-    {
-=======
     public function airports(Request $request){
->>>>>>> 0947c48364760d386f03c954bd861d2ba758a6f4
+
         $input = $request->all();
         $id = $input['id'] ?? 2;
         $email = $input['email']?? "jontoshmatov@yahoo.com";
@@ -42,15 +37,7 @@ class PublicController extends Controller
         ];
         return view("airports", compact('parms'));
     }
-<<<<<<< HEAD
 
-    public function resume(Request $request)
-    {
-        return view('professional.resume');
-    }
-
-
-=======
     public function resume(Request $request){
         return view('professional.resume');
     }
@@ -60,7 +47,7 @@ class PublicController extends Controller
         ];
         return view('contactus', compact('parms'));
     }
->>>>>>> 0947c48364760d386f03c954bd861d2ba758a6f4
+
 }
 
 

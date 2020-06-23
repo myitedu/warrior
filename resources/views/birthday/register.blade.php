@@ -10,7 +10,7 @@
 
                 @if ($errors->any())
                     <div class="alert alert-danger msg_alert">
-                        <ul>
+                        <ul>                                        <?//Error message will appear if something wrong with input data ?>
                             @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
                             @endforeach
@@ -30,6 +30,8 @@
                 <small id="last_nameHelp" class="form-text text-muted">Please enter your Last Name</small>
             </div>
 
+            <?//The 2 above and 3 below are boxes to enter info.
+              //have to put "required". Also "aria-describedby" is the little sub text that appears when mousing over text?>
 
             <div class="form-group">
                 <label for="dob">DOB</label>
@@ -64,7 +66,6 @@
             text-align: center;
             font-size: 2em;
             color: darkred;
-            font-family: "Imprint MT Shadow";
             text-shadow: #dbcaa5 3px 1px;
         }
 
