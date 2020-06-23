@@ -5,13 +5,8 @@
     <div id="birthday_register">
         <div class="birthday_reminder_header">Birthday Reminder Form</div>
         <form method="post" action="/birthday/reminder/register">
-
-
-
                 @if ($errors->any())
-
                     @php
-
                         $class_name = 'alert-success';
                         $msg = $errors->all()[0];
                         $any_error = $errors->all()[0]?true:false;
@@ -23,12 +18,10 @@
                                 $msg = "Your request has been updated successfully";
                             }
                     @endphp
-
                     <div class="alert  {{$class_name}}  msg_alert">
                             <span>{{ $msg}}</span>
                     </div>
                 @endif
-
             <div class="form-group">
                 <label for="first_name">First Name</label>
                 <input name="first_name" required="required" type="text" class="form-control" id="first_name" aria-describedby="first_nameHelp" placeholder="First Name of the birthday person">

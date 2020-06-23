@@ -7,9 +7,18 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Redirect;
+use App\Traits\utilitiesTrait;
 
 class BirthdayController extends Controller
 {
+
+    use utilitiesTrait;
+
+    public function __construct()
+    {
+        date_default_timezone_set("America/New_York");
+    }
+
     public function registerForm(){
         return view ("birthday.register");
     }
@@ -58,5 +67,23 @@ class BirthdayController extends Controller
         }
         return Redirect::back()->withErrors([1]);
     }
+    public function getTodayBirthdays(Request $request){
+        $today = date('Y-m-d');
+        $birthdays = Birthday::whereDate('dob', '=', $today)->get();
+        $mail_data = [];
+        foreach ($birthdays as $birthday){
+            $mail_data = [
+                'id' => $birthday->id,
+                'user_id' => $birthday->user_id,
+                'email' => $birthday->email,
+                'your_message' => $birthday->your_message,
+                'dob' => $birthday->dob,
+                'first_name' => $birthday->user->first_name,
+                'last_name' => $birthday->user->last_name,
+            ];
+            $this->mail($mail_data);
+        }
+    }
+
 }
 
