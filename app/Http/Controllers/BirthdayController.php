@@ -6,6 +6,7 @@ use App\Birthday;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Redirect;
 
 class BirthdayController extends Controller
 {
@@ -14,11 +15,11 @@ class BirthdayController extends Controller
     }
     public function register(Request $request){
         $parms = $request->input();
-
         $validatedData = $request->validate([
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'email' => 'required|email|max:255',
+            'your_message' => 'required|string|max:1000',
             'dob' => 'required|date',
         ]);
 
@@ -40,22 +41,22 @@ class BirthdayController extends Controller
                 'email' => $parms['email'],
                 'user_id' => $user->id,
                 'dob' => $parms['dob'],
+                'your_message' => $parms['your_message']??null,
                 'unsubscribe' => isset($parms['unsubscribe'])?1:0,
             ]);
         }else{
           $dob->email = $parms['email'];
           $dob->user_id = $user->id;
           $dob->dob = $parms['dob'];
+          $dob->your_message = $parms['your_message']??null;
           $dob->unsubscribe = isset($parms['unsubscribe'])?1:0;
           $dob->save();
         }
 
         if ($dob){
-            return back()->with('msg','SUCESS');
+            return Redirect::back()->withErrors([0]);
         }
-
-        return back()->with('msg','FAILED');
-
+        return Redirect::back()->withErrors([1]);
     }
 }
 
