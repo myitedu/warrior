@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Birthday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BirthdayController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/birthday/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +158,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myitedu" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -199,7 +194,12 @@
       <workItem from="1591311717421" duration="2041000" />
       <workItem from="1591914774106" duration="6887000" />
       <workItem from="1592262821695" duration="5615000" />
-      <workItem from="1592523211232" duration="5584000" />
+      <workItem from="1592523211232" duration="7256000" />
+      <workItem from="1592573630605" duration="14000" />
+      <workItem from="1592868593472" duration="649000" />
+      <workItem from="1593006980082" duration="2000" />
+      <workItem from="1593035085124" duration="33000" />
+      <workItem from="1593126714436" duration="304000" />
     </task>
     <servers />
   </component>
@@ -222,6 +222,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1592573642711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1592573642711" />
     <state x="196" y="141" key="NewPhpClassDialog" timestamp="1592264515985">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
