@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 
 use App\Airport;
+use App\Birthday;
+use http\Encoding\Stream;
 use Illuminate\Http\Request;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
+use Psy\Util\Str;
 
 class PublicController extends Controller
 {
+<<<<<<< HEAD
     public function arrays(){
         return view("arrays");
     }
@@ -22,17 +24,34 @@ class PublicController extends Controller
             'name'=>'Jon'
         ];
         return view('contactus', compact('parms'));
+=======
+    public function welcomeBobby()
+    {
+        return view('welcome_bobby');
+
+    }
+
+    public function helloWorld()
+    {
+        return view("hello_world");
+>>>>>>> c541f6a3b7a38764fd1e64c3414b3e9289fbbd5c
     }
 
     public function airports(Request $request){
+
         $input = $request->all();
-        $country = $input['country']??'Uzbekistan';
-        $airports = Airport::where('country','like','%'.$country.'%')->get();
+        $id = $input['id'] ?? 2;
+        $email = $input['email']?? "jontoshmatov@yahoo.com";
+        if(!$email){
+            return "Email is empty";
+        }
+        $birthday = Birthday::where('email', 'like', '%' . $email . '%')->get();
         $parms = [
-            'country' => $country,
+            'id' => $id,
             'input' => $input,
-            'airports' => $airports
+            'birthdays' => $birthday
         ];
+<<<<<<< HEAD
 
         return view("airports",compact('parms'));
     }
@@ -308,11 +327,23 @@ class PublicController extends Controller
         $array = [
             ['developer' => ['id' => 1, 'name' => 'Taylor']],
             ['developer' => ['id' => 2, 'name' => 'Abigail']],
+=======
+        return view("airports", compact('parms'));
+    }
+
+    public function resume(Request $request){
+        return view('professional.resume');
+    }
+    public function contactus(){
+        $parms = [
+            'name'=>'Jon'
+>>>>>>> c541f6a3b7a38764fd1e64c3414b3e9289fbbd5c
         ];
         $names = Arr::pluck($array, 'developer.name');//tushunmadim
         echo "<pre>";
         print_r($names);
     }
+<<<<<<< HEAD
    /* public function practice(Request $request){
         $array = ['one', 'two', 'three', 'four'];
         $array = Arr::prepend($array, 'zero');//aarayni joyma joy qoyish
@@ -410,5 +441,19 @@ class PublicController extends Controller
 
 
 
+=======
+>>>>>>> c541f6a3b7a38764fd1e64c3414b3e9289fbbd5c
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
