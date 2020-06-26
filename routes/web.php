@@ -24,3 +24,7 @@ Route::post("/birthday/reminder/register", "BirthdayController@register");
 Route::get('testemail', function (){
    return view('mail.generic');
 });
+
+Route::get('islamic', function (){
+    return view('mail.islamicscard');
+});
