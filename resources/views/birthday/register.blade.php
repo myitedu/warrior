@@ -5,19 +5,23 @@
     <div id="birthday_register">
         <div class="birthday_reminder_header">Birthday Reminder Form</div>
         <form method="post" action="/birthday/reminder/register">
-
-            {{var_dump($msg??null)}}
-
-                @if ($errors->any())
-                    <div class="alert alert-danger msg_alert">
-                        <ul>                                        <?//Error message will appear if something wrong with input data ?>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
-
+            @if ($errors->any())
+                @php
+                    $class_name = 'alert-success';
+                    $msg = $errors->all()[0];
+                    $any_error = $errors->all()[0]?true:false;
+                        if ($any_error){
+                            $class_name = 'alert-danger';
+                        }
+                       $no_error = ($errors->all()[0]=="0")??false;
+                        if ($no_error){
+                            $msg = "Your request has been updated successfully";
+                        }
+                @endphp
+                <div class="alert  {{$class_name}}  msg_alert">
+                    <span>{{ $msg}}</span>
+                </div>
+            @endif
             <div class="form-group">
                 <label for="first_name">First Name</label>
                 <input name="first_name" required="required" type="text" class="form-control" id="first_name" aria-describedby="first_nameHelp" placeholder="First Name of the birthday person">
@@ -30,12 +34,10 @@
                 <small id="last_nameHelp" class="form-text text-muted">Please enter your Last Name</small>
             </div>
 
-            <?//The 2 above and 3 below are boxes to enter info.
-              //have to put "required". Also "aria-describedby" is the little sub text that appears when mousing over text?>
 
             <div class="form-group">
                 <label for="dob">DOB</label>
-                <input name="dob"  required="required"  type="date" class="form-control" id="dob" aria-describedby="dobHelp" placeholder="DOB of the birthday person">
+                <input name="dob" required="required"  type="date" class="form-control" id="dob" aria-describedby="dobHelp" placeholder="DOB of the birthday person">
                 <small id="dobHelp" class="form-text text-muted">Please enter DOB of the person</small>
             </div>
 
@@ -44,6 +46,12 @@
                 <label for="email_address">Email Address</label>
                 <input name="email"  required="required"  type="text" class="form-control" id="email_address" aria-describedby="email_addressHelp" placeholder="Email Address of the birthday person">
                 <small id="email_addressHelp" class="form-text text-muted">Please enter your Email Address</small>
+            </div>
+
+            <div class="form-group">
+                <label for="your_message">Your Message</label>
+                <textarea name="your_message" required="required" class="form-control" id="your_message" aria-describedby="your_messageHelp" placeholder="Your message to a birthday person"></textarea>
+                <small id="your_messageHelp" class="form-text text-muted">Please enter your message</small>
             </div>
 
             <div class="form-group form-check">
@@ -66,6 +74,7 @@
             text-align: center;
             font-size: 2em;
             color: darkred;
+            font-family: "Imprint MT Shadow";
             text-shadow: #dbcaa5 3px 1px;
         }
 

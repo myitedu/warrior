@@ -18,4 +18,5 @@ Route::match(['post','get'],"airports","PublicController@airports")->name('birth
 //Birthday reminder routes
 Route::get("/birthday/reminder", "BirthdayController@registerForm");
 Route::post("/birthday/reminder/register", "BirthdayController@register");
+Route::get("/cars" ,"CarsController@cars");
 
