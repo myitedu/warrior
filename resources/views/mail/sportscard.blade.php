@@ -23,19 +23,26 @@
     </div>
     <div id="mycontent">
         <div class="mail_body">
-            <h2>Happy Birthday!</h2>
-            <div class="mail_title">Hello, {{$data['name']}}!</div>
+            <h2>Congratulations!</h2>
+            <div class="mail_title">Hello, {{$data['name']}}</div>
             <img class="divider" src="{{\Illuminate\Support\Facades\URL::to('/')}}/img/divider.png">
-            <p>Your friend Jon wants to wish you Happy Birthday and he said:</p>
-            <div class="your_message">{{$data['your_message']}}</div>
+            <p>Your Friends and Family Thank You Champ!</p>
+            <div class="your_message">$data['your_message']</div>
         </div>
     </div>
 </div>
 
 <style>
+    #mycontent{
+        color: #ee0000;
+        font-family: Kefa;
+    }
     .divider{
-        width: 50%;
+        width: 100%;
         margin: auto;
+    }
+    .mail_title{
+        color: #00e30c;
     }
     .logo{
         width: 150px;
@@ -66,8 +73,8 @@
 
     #mycontent {
         width: 100%;
-        height: 700px;
-        background-image: url("{{\Illuminate\Support\Facades\URL::to('/')}}/img/generic_email_template.jpg");
+        height: 650px;
+        background-image: url("{{\Illuminate\Support\Facades\URL::to('/')}}/img/photos/betterbasketballcard.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
@@ -75,4 +82,3 @@
 <script src="{{\Illuminate\Support\Facades\URL::to('/')}}/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
-

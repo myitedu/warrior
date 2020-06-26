@@ -19,4 +19,9 @@ Route::match(['post','get'],"airports","PublicController@airports")->name('birth
 Route::get("/birthday/reminder", "BirthdayController@registerForm");
 Route::post("/birthday/reminder/register", "BirthdayController@register");
 Route::get("/cars" ,"CarsController@cars");
-
+Route::get('testemail', function (){
+   return view('mail.generic');
+});
+Route::get('sports', function (){
+    return view('mail.sportscard');
+});

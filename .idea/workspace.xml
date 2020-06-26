@@ -20,101 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome_bobby.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/generic_email_template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photos/basketball.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photos/betterbasketballcard.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/generic.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/sportscard.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/app/Airport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/airports.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" afterDir="false" />
->>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
-=======
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bootstrap_founder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/css_id_class.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/history_of_bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/id-and-class.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo28.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo31.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo33.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo34.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/photo9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/red_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/slide9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/video_to_do_sticker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/whatisbootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/carousel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/loginform.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/includes/weather.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PublicController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/professional/resume.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/professional/resume.blade.php" afterDir="false" />
->>>>>>> b482425ebbb71410ce6998cec1cf547cd5fd3be8
-=======
-      <change afterPath="$PROJECT_DIR$/app/Birthday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BirthdayController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/birthday/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
->>>>>>> 0947c48364760d386f03c954bd861d2ba758a6f4
+      <change beforePath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BirthdayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BirthdayController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/birthday/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/birthday/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
->>>>>>> b331a999751019c424203e41df422c2ea7ca2e56
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,8 +40,6 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
-<<<<<<< HEAD
-=======
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -134,7 +48,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
->>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -250,28 +163,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-<<<<<<< HEAD
-=======
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
->>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\warrior\public\img" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/bootstrap" />
       <recent name="$PROJECT_DIR$/resources/views/personal" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/photos" />
       <recent name="$PROJECT_DIR$/resources/views/professional" />
     </key>
   </component>
@@ -291,27 +202,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591311711858</updated>
-<<<<<<< HEAD
       <workItem from="1591311717421" duration="499000" />
       <workItem from="1591313388552" duration="3259000" />
-=======
       <workItem from="1591311717421" duration="2041000" />
-<<<<<<< HEAD
       <workItem from="1591914774106" duration="6200000" />
->>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
-=======
       <workItem from="1591914774106" duration="6887000" />
-<<<<<<< HEAD
       <workItem from="1592262821695" duration="4780000" />
->>>>>>> b482425ebbb71410ce6998cec1cf547cd5fd3be8
-=======
       <workItem from="1592262821695" duration="5615000" />
-<<<<<<< HEAD
       <workItem from="1592523211232" duration="5584000" />
->>>>>>> 0947c48364760d386f03c954bd861d2ba758a6f4
-=======
       <workItem from="1592523117384" duration="405000" />
->>>>>>> b331a999751019c424203e41df422c2ea7ca2e56
+      <workItem from="1592523211232" duration="7256000" />
+      <workItem from="1592573630605" duration="14000" />
+      <workItem from="1592868593472" duration="649000" />
+      <workItem from="1593006980082" duration="2000" />
+      <workItem from="1593035085124" duration="33000" />
+      <workItem from="1593126714436" duration="304000" />
     </task>
     <servers />
   </component>
@@ -328,39 +233,34 @@
         </entry>
       </map>
     </option>
-<<<<<<< HEAD
-<<<<<<< HEAD
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="559" y="574" key="NewPhpFileDialog" timestamp="1591316467980">
-      <screen x="0" y="23" width="1440" height="825" />
-    </state>
-    <state x="559" y="574" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1591316467980" />
-=======
-=======
     <option name="oldMeFiltersMigrated" value="true" />
->>>>>>> b482425ebbb71410ce6998cec1cf547cd5fd3be8
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1592573642711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1592573642711" />
     <state x="196" y="141" key="NewPhpClassDialog" timestamp="1592264515985">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="196" y="141" key="NewPhpClassDialog/0.23.1440.821@0.23.1440.821" timestamp="1592264515985" />
-    <state x="309" y="377" key="NewPhpFileDialog" timestamp="1592875547412">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="309" y="369" key="NewPhpFileDialog" timestamp="1593133388189">
+      <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="309" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1592875547412" />
+    <state x="2332" y="435" key="NewPhpFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593128132708" />
+    <state x="412" y="432" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1592523520311" />
     <state x="309" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1592267510393" />
     <state x="309" y="367" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1591920052936" />
+    <state x="309" y="369" key="NewPhpFileDialog/0.23.1440.828@0.23.1440.828" timestamp="1593133388189" />
     <state x="309" y="390" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1591315404095" />
-    <state x="0" y="98" key="SettingsEditor" timestamp="1591315300620">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1920" y="89" key="SettingsEditor" timestamp="1593127590046">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="1920" y="89" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593127590046" />
     <state x="0" y="98" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591315300620" />
->>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
     <state x="145" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1591311717544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -369,10 +269,25 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="199" y="134" width="598" height="548" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1592267603374" />
-    <state x="163" y="39" width="670" height="742" key="search.everywhere.popup" timestamp="1592870295747">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="163" y="59" width="670" height="676" key="search.everywhere.popup" timestamp="1592267152662">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="163" y="39" width="670" height="742" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592870295747" />
     <state x="163" y="59" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1592267152662" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/mail/generic.blade.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/mail/generic.blade.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
