@@ -83,6 +83,7 @@ class BirthdayController extends Controller
                 'dob' => $birthday->dob,
                 'first_name' => $birthday->user->first_name,
                 'last_name' => $birthday->user->last_name,
+                'template' => $birthday->template??'generic',
             ];
             $this->mail($mail_data);
         }

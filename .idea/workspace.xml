@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="" />
+    <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/bobby.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/jontosh.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/sunnat.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BirthdayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BirthdayController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,16 +170,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img/photos" />
-      <recent name="$PROJECT_DIR$/resources/views/professional" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\warrior\public\img" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/bootstrap" />
       <recent name="$PROJECT_DIR$/resources/views/personal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/photos" />
+      <recent name="$PROJECT_DIR$/resources/views/professional" />
     </key>
   </component>
   <component name="RunManager">
@@ -235,10 +243,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="196" y="141" key="NewPhpClassDialog/0.23.1440.821@0.23.1440.821" timestamp="1592264515985" />
-    <state x="309" y="369" key="NewPhpFileDialog" timestamp="1593133388189">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="2332" y="435" key="NewPhpFileDialog" timestamp="1593136644386">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2332" y="435" key="NewPhpFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593128132708" />
+    <state x="2332" y="435" key="NewPhpFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593136644386" />
     <state x="412" y="432" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1592523520311" />
     <state x="309" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1592267510393" />
     <state x="309" y="367" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1591920052936" />
