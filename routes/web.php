@@ -15,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 Route::match(['post','get'],"airports/{country}","PublicController@airports")->name('airports');
 
 //Birthday reminder routes
-Route::get("/birthday/reminder", "BirthdayController@reminder");
 Route::get("/arrays", "PublicController@arrays");
 Route::get("/practice", "PublicController@practice");
+//Birthday reminder routes
+Route::get("/birthday/reminder", "BirthdayController@registerForm");
 Route::post("/birthday/reminder/register", "BirthdayController@register");
