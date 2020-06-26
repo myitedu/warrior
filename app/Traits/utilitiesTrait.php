@@ -1,8 +1,6 @@
 <?php
 namespace App\Traits;
 
-use Exception;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 
 trait utilitiesTrait{

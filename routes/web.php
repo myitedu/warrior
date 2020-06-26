@@ -20,3 +20,7 @@ Route::match(['post','get'],"resume/{jobtype?}","PublicController@resume")->name
 //Birthday reminder routes
 Route::get("/birthday/reminder", "BirthdayController@registerForm");
 Route::post("/birthday/reminder/register", "BirthdayController@register");
+
+Route::get('testemail', function (){
+   return view('mail.generic');
+});
