@@ -56,13 +56,13 @@ class BirthdayController extends Controller
                 'unsubscribe' => isset($parms['unsubscribe'])?1:0,
             ]);
         }else{
-          $dob->email = $parms['email'];
-          $dob->user_id = $user->id;
-          $dob->dob = $parms['dob'];                 //NEED A LITTLE EXPLANATION
-          $dob->dob = $parms['dob'];
-          $dob->your_message = $parms['your_message']??null;
-          $dob->unsubscribe = isset($parms['unsubscribe'])?1:0;
-          $dob->save();
+            $dob->email = $parms['email'];
+            $dob->user_id = $user->id;
+            $dob->dob = $parms['dob'];
+            $dob->your_message = $parms['your_message']??null;
+            $dob->unsubscribe = isset($parms['unsubscribe'])?1:0;
+            $dob->save();
+
         }
 
         if ($dob){
@@ -86,6 +86,10 @@ class BirthdayController extends Controller
             ];
             $this->mail($mail_data);
         }
+    }
+
+    public function reminder(){
+        return 'reminder';
     }
 
 }
