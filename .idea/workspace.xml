@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/resources/views/welcome_sunnat.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -114,6 +115,16 @@
       <change beforePath="$PROJECT_DIR$/resources/views/birthday/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/birthday/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
 >>>>>>> b331a999751019c424203e41df422c2ea7ca2e56
+=======
+      <change afterPath="$PROJECT_DIR$/public/img/divider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/generic_email_template.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mail/generic.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+>>>>>>> 3dd37e72c5ef0b7b997f82e93048a13507cab813
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,6 +272,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -284,17 +296,23 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.PHP" />
 >>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> 3dd37e72c5ef0b7b997f82e93048a13507cab813
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/professional" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\warrior\public\img" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/bootstrap" />
       <recent name="$PROJECT_DIR$/resources/views/personal" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/professional" />
     </key>
   </component>
   <component name="RunManager">
@@ -332,11 +350,20 @@
 =======
       <workItem from="1592262821695" duration="5615000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1592523211232" duration="5584000" />
 >>>>>>> 0947c48364760d386f03c954bd861d2ba758a6f4
 =======
       <workItem from="1592523117384" duration="405000" />
 >>>>>>> b331a999751019c424203e41df422c2ea7ca2e56
+=======
+      <workItem from="1592523211232" duration="7256000" />
+      <workItem from="1592573630605" duration="14000" />
+      <workItem from="1592868593472" duration="649000" />
+      <workItem from="1593006980082" duration="2000" />
+      <workItem from="1593035085124" duration="33000" />
+      <workItem from="1593126714436" duration="304000" />
+>>>>>>> 3dd37e72c5ef0b7b997f82e93048a13507cab813
     </task>
     <servers />
   </component>
@@ -368,20 +395,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1592573642711">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1592573642711" />
     <state x="196" y="141" key="NewPhpClassDialog" timestamp="1592264515985">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="196" y="141" key="NewPhpClassDialog/0.23.1440.821@0.23.1440.821" timestamp="1592264515985" />
-    <state x="309" y="377" key="NewPhpFileDialog" timestamp="1592875547412">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2332" y="435" key="NewPhpFileDialog" timestamp="1593128132708">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="309" y="377" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1592875547412" />
+    <state x="2332" y="435" key="NewPhpFileDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593128132708" />
+    <state x="412" y="432" key="NewPhpFileDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1592523520311" />
     <state x="309" y="367" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1592267510393" />
     <state x="309" y="367" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1591920052936" />
     <state x="309" y="390" key="NewPhpFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1591315404095" />
-    <state x="0" y="98" key="SettingsEditor" timestamp="1591315300620">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1920" y="89" key="SettingsEditor" timestamp="1593127590046">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="1920" y="89" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593127590046" />
     <state x="0" y="98" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591315300620" />
 >>>>>>> 878dce1ee4158e711086bd11c63f3d5bb289a185
     <state x="145" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1591311717544">
@@ -392,10 +425,25 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="199" y="134" width="598" height="548" key="find.popup/0.23.1440.821@0.23.1440.821" timestamp="1592267603374" />
-    <state x="163" y="39" width="670" height="742" key="search.everywhere.popup" timestamp="1592870295747">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="163" y="59" width="670" height="676" key="search.everywhere.popup" timestamp="1592267152662">
+      <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state x="163" y="39" width="670" height="742" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592870295747" />
     <state x="163" y="59" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1592267152662" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/mail/generic.blade.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/mail/generic.blade.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

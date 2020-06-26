@@ -20,3 +20,7 @@ Route::get("/practice", "PublicController@practice");
 //Birthday reminder routes
 Route::get("/birthday/reminder", "BirthdayController@registerForm");
 Route::post("/birthday/reminder/register", "BirthdayController@register");
+
+Route::get('testemail', function (){
+   return view('mail.generic');
+});
