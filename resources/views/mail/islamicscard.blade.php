@@ -27,7 +27,7 @@
             <div class="mail_title">Hello, {{$data['name']}}</div>
             <img class="divider" src="{{\Illuminate\Support\Facades\URL::to('/')}}/img/divider.png">
             <p>Your friend Jon wants to wish you Happy Birthday and he said:</p>
-            <div class="your_message">$data['your_message']</div>
+            <div class="your_message">{{$data['your_message']}}</div>
         </div>
     </div>
 </div>
