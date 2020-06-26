@@ -19,19 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/divider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/generic_email_template.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/basketball.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/photos/betterbasketballcard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/generic.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/mail/sportscard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/utilitiesTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/includes/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/birthday.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="8a5eda85-e215-4e06-9743-5f3be3b4f544" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,16 +162,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/photos" />
+      <recent name="$PROJECT_DIR$/resources/views/professional" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\warrior\public\img" />
       <recent name="$PROJECT_DIR$/resources/views" />
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/bootstrap" />
       <recent name="$PROJECT_DIR$/resources/views/personal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/img/photos" />
-      <recent name="$PROJECT_DIR$/resources/views/professional" />
     </key>
   </component>
   <component name="RunManager">
